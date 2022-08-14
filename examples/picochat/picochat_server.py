@@ -117,7 +117,7 @@ async def echo(sock, asdf):
 
 if __name__ == '__main__':
     async def main():
-        async with serve(echo, "localhost", 8888):
+        async with serve(echo, "0.0.0.0", 8888):
             await asyncio.Future()
 
     asyncio.run(main())
