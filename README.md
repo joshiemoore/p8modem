@@ -1,9 +1,7 @@
 # p8modem
 p8modem is a general-purpose WebSocket "modem" for PICO-8. You can use it to write PICO-8
 programs which interact with WebSocket servers, in order to make multiplayer games,
-chat programs, BBS services, or other networked software. You could even implement a client
-program and server program both in PICO-8, as long as you write a WebSocket-based relay
-to connect the two.
+chat programs, BBS services, or other networked software.
 
 [Click this link](http://p8modem.net/picochat/) to access picochat, a basic chat program
 implemented using p8modem.
