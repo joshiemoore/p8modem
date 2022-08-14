@@ -29,11 +29,12 @@ end
 3. Copy `p8modem.lua` from this repository to the directory containing your
    new program so that the p8modem Lua API can be included. On Linux, your
    PICO-8 carts will be found under `~/.lexaloffle/pico-8/carts/`
-4. Copy `p8modem.js` from this directory to the same directory you copied
+4. Copy `p8modem.js` from this repository to the same directory you copied
    `p8modem.lua` to in the previous step.
 5. Open your copy of `p8modem.js` in a text editor. Change `SOCKET_URL` to a
    URL that points to the WebSocket server you're communicating with.
-6. Now export your program as a web application: `> EXPORT HELLOWORLD.HTML`.
+6. Now export your program as a web application from within PICO-8:
+   `> EXPORT HELLOWORLD.HTML`
 7. Open `helloworld.html` in a text editor, scroll to the bottom, and insert
    this line:
    
