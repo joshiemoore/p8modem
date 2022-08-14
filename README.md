@@ -55,7 +55,10 @@ and `p8modem.js` all in the same directory. Replace `helloworld` with whatever y
 named your program. You do not need to copy `p8modem.lua` to your web server.
 
 Implementing your server-side WebSocket code is left as an exercise for the
-reader, but you can find examples in the `examples/` directory.
+reader, but you can find examples in the `examples/` directory. When you are sending
+a packet from your WebSocket server to PICO-8/p8modem, remember that the first byte of
+the packet must be the total length of the packet, and that packets are limited to
+128 total bytes in size (including the length byte).
 
 Please see the `Limitations` section for items to note while using p8modem
 to develop networked PICO-8 programs. Feel free to open an issue if you
